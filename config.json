@@ -1,6 +1,6 @@
 {
   "version": "1.0.2",
-  "cdn": "https://cdn.jsdelivr.net/gh/yourusername/vavada-casino-cdn@main/",
+  "cdn": "https://cdn.jsdelivr.net/gh/sherrienatonabah/vavada-test@main/",
   
   "blocks": {
     "header": "blocks/header.html",
@@ -51,4 +51,5 @@
   ],
   
   "redirectUrl": "/gotosite.html"
+
 }
