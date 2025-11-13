@@ -1,0 +1,54 @@
+{
+  "version": "1.0.2",
+  "cdn": "https://cdn.jsdelivr.net/gh/yourusername/vavada-casino-cdn@main/",
+  
+  "blocks": {
+    "header": "blocks/header.html",
+    "navi": "blocks/navi.html",
+    "banner": "blocks/banner.html",
+    "prize": "blocks/prize.html",
+    "prizeMobile": "blocks/prize-mobile.html",
+    "footer": "blocks/footer.html"
+  },
+  
+  "layout": [
+    "header",
+    "navi",
+    "banner",
+    "prize",
+    "prizeMobile",
+    "footer"
+  ],
+  
+  "styles": [
+    "css/style.css",
+    "css/custom.css",
+    "css/swiper-style.css",
+    "css/games.css"
+  ],
+  
+  "fonts": [
+    {
+      "name": "Geologica",
+      "src": "fonts/Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf",
+      "weight": "100 900",
+      "style": "normal"
+    }
+  ],
+  
+  "scripts": [
+    "js/jquery.min.js",
+    "js/swiper.js",
+    "js/ajax.js",
+    "js/lang.js",
+    "js/accordion.js",
+    "js/open-drawer.js",
+    "js/articles.js",
+    "js/text-block.js",
+    "js/text-defence.js",
+    "js/custom.js",
+    "js/swiper_1.js"
+  ],
+  
+  "redirectUrl": "/gotosite.html"
+}
