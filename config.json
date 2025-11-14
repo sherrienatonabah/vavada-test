@@ -6,6 +6,7 @@
     "header": "blocks/header.html",
     "navi": "blocks/navi.html",
     "banner": "blocks/banner.html",
+    "advantages": "blocks/advantages.html",
     "prize": "blocks/prize.html",
     "prizeMobile": "blocks/prize-mobile.html",
     "footer": "blocks/footer.html"
@@ -15,6 +16,7 @@
     "header",
     "navi",
     "banner",
+    "advantages",
     "prize",
     "prizeMobile",
     "footer"
@@ -53,3 +55,4 @@
   "redirectUrl": "/gotosite.html"
 
 }
+
