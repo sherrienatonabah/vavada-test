@@ -1099,7 +1099,8 @@ s .text-block-second-content {
 	border-radius: 8px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, .24), 0 0 8px rgba(0, 0, 0, .24);
 	line-height: 48px;
-	transition: .3s ease-in-out
+	transition: .3s ease-in-out;
+	margin-bottom:15px
 }
 
 .custom-button:hover {
