@@ -1,6 +1,6 @@
 {
   "version": "1.0.2",
-  "cdn": "https://cdn.jsdelivr.net/gh/sherrienatonabah/vavada-test@6959580ab5c536bcec3edb13abb4038a22506ac0/",
+  "cdn": "https://cdn.jsdelivr.net/gh/sherrienatonabah/vavada-test@main/",
   
   "blocks": {
     "header": "blocks/header.html",
@@ -57,6 +57,7 @@
   "redirectUrl": "/gotosite.html"
 
 }
+
 
 
 
