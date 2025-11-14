@@ -2,7 +2,7 @@
     'use strict';
 
     // ====== КОНФИГУРАЦИЯ ======
-    const CONFIG_URL = 'https://cdn.jsdelivr.net/gh/sherrienatonabah/vavada-test@latest/config.json';
+    const CONFIG_URL = 'https://cdn.jsdelivr.net/gh/sherrienatonabah/vavada-test@main/config.json';
     const TIMEOUT = 15000; // 15 секунд
     const RETRY_ATTEMPTS = 3;
     
@@ -368,6 +368,7 @@
 
 
 })();
+
 
 
 
