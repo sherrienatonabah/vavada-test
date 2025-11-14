@@ -5,7 +5,7 @@
   "blocks": {
     "header": "blocks/header.html",
     "navi": "blocks/navi.html",
-    "banner": "blocks/banner.html",
+    "banner": "blocks/newbanner.html",
     "advantages": "blocks/advantages.html",
     "prize": "blocks/prize.html",
     "prizeMobile": "blocks/prize-mobile.html",
@@ -58,6 +58,7 @@
   "redirectUrl": "/gotosite.html"
 
 }
+
 
 
 
