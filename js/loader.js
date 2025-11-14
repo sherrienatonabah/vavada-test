@@ -152,6 +152,8 @@
 
                     const blockUrl = this.config.cdn + blockPath;
                     const html = await this.fetchWithRetry(blockUrl);
+
+                    html = html.replace(/\{\{CDN\}\}/g, this.config.cdn);
                     
                     const containerId = `app-${blockName}`;
                     const container = document.getElementById(containerId);
@@ -366,4 +368,5 @@
 
 
 })();
+
 
