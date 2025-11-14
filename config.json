@@ -9,6 +9,7 @@
     "advantages": "blocks/advantages.html",
     "prize": "blocks/prize.html",
     "prizeMobile": "blocks/prize-mobile.html",
+    "gol-box": "blocks/gol-box.html",
     "footer": "blocks/footer.html"
   },
   
@@ -19,6 +20,7 @@
     "advantages",
     "prize",
     "prizeMobile",
+    "gol-box",
     "footer"
   ],
   
@@ -55,4 +57,5 @@
   "redirectUrl": "/gotosite.html"
 
 }
+
 
