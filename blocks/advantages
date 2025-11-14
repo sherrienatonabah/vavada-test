@@ -1,0 +1,29 @@
+<div class="advantages">
+                <h2 class="advantages-title h2-base-title">Преимущества VAVADA</h2>
+                <div class="advantages-content base-gradient-border">
+                    <div class="advantages-item">
+                        <img loading="lazy" height="48" width="48" class="advantages-item-img lazyloaded" src="./content/img/advantages-icons/setting_2x.webp" alt="техническая поддержа" title="24/7 техническая поддержа">
+                        <span class="advantages-item-text">24/7 техническая поддержа</span>
+                    </div>
+                    <div class="advantages-item">
+                        <img loading="lazy" height="48" width="48" class="advantages-item-img lazyloaded" src="./content/img/advantages-icons/card_2x.webp" alt="Быстрые выводы" title="Быстрые выводы">
+                        <span class="advantages-item-text">Быстрые выводы</span>
+                    </div>
+                    <div class="advantages-item">
+                        <img loading="lazy" height="48" width="48" class="advantages-item-img lazyloaded" src="./content/img/advantages-icons/sheild_2x.webp" alt="Полная анонимность" title="Полная анонимность">
+                        <span class="advantages-item-text">Полная анонимность</span>
+                    </div>
+                    <div class="advantages-item">
+                        <img loading="lazy" height="48" width="48" class="advantages-item-img lazyloaded" src="./content/img/advantages-icons/trophy_2x.webp" alt="Регулярные турниры vavada" title="Регулярные турниры vavada">
+                        <span class="advantages-item-text">Регулярные турниры</span>
+                    </div>
+                    <div class="advantages-item">
+                        <img loading="lazy" height="48" width="48" class="advantages-item-img lazyloaded" src="./content/img/advantages-icons/computer_2x.webp" alt="Быстрая регистрация" title="Быстрая регистрация">
+                        <span class="advantages-item-text">Быстрая регистрация</span>
+                    </div>
+                    <div class="advantages-item">
+                        <img loading="lazy" height="48" width="48" class="advantages-item-img lazyloaded" src="./content/img/advantages-icons/eth_2x.webp" alt="Мультивалютная платформа" title="Мультивалютная платформа">
+                        <span class="advantages-item-text">Мультивалютная платформа</span>
+                    </div>
+                </div>
+            </div>
