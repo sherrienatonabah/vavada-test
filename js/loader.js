@@ -151,7 +151,7 @@
                     }
 
                     const blockUrl = this.config.cdn + blockPath;
-                    const html = await this.fetchWithRetry(blockUrl);
+                    let html = await this.fetchWithRetry(blockUrl);
 
                     html = html.replace(/\{\{CDN\}\}/g, this.config.cdn);
                     
@@ -368,5 +368,6 @@
 
 
 })();
+
 
 
