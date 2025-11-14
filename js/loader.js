@@ -235,6 +235,37 @@
             
             // Lazy loading изображений
             this.setupLazyLoading();
+            // ====== ИСПРАВЛЕНИЕ ПУТЕЙ К ИЗОБРАЖЕНИЯМ ======
+    console.log('🔧 Исправление путей к изображениям...');
+
+    // Исправляем все изображения, которые могут загружаться с локальных путей
+    document.querySelectorAll('img').forEach(img => {
+        const src = img.getAttribute('src');
+        if (src && !src.includes('cdn.jsdelivr.net')) {
+            // Извлекаем имя файла из пути
+            const fileName = src.split('/').pop();
+            // Создаем новый корректный путь с CDN
+            const newSrc = `${this.config.cdn}images/${fileName}`;
+            console.log(`🔄 Исправлен путь: ${src} -> ${newSrc}`);
+            img.src = newSrc;
+        }
+    });
+
+    // Исправляем SVG, используемые в CSS через background-image
+    document.querySelectorAll('*').forEach(el => {
+        const style = window.getComputedStyle(el);
+        if (style.backgroundImage && style.backgroundImage.includes('.svg') && !style.backgroundImage.includes('cdn.jsdelivr.net')) {
+            // Извлекаем имя файла из url("...")
+            const match = style.backgroundImage.match(/url\(['"]?([^'"]+)['"]?\)/);
+            if (match && match[1]) {
+                const path = match[1];
+                const fileName = path.split('/').pop();
+                // Устанавливаем inline стиль с корректным путем
+                el.style.backgroundImage = `url("${this.config.cdn}images/${fileName}")`;
+                console.log(`🔄 Исправлен CSS фон: ${path} -> ${this.config.cdn}images/${fileName}`);
+            }
+        }
+    });
 
             console.log('✅ Сайт инициализирован');
         }
@@ -368,6 +399,7 @@
 
 
 })();
+
 
 
 
