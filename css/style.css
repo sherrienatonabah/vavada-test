@@ -619,7 +619,7 @@ table th {
 	align-items: center;
 	justify-content: space-between;
 	width: 160px;
-	background: radial-gradient(circle, #96e000 100%, #529900 100%);
+	background: radial-gradient(circle, #d7223e 100%, #d0b731 100%);
 	font-family: Arial, sans-serif;
 	transition: transform .2s, box-shadow .2s
 }
