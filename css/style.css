@@ -604,7 +604,7 @@ table th {
 	width: 680px;
 	padding: 30px;
 	height: 60px;
-	background-image: url('../images/App_banner_desktop.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/sherrienatonabah/vavada-test@main/images/App_banner_mobile.png');
 	background-repeat: no-repeat;
 	box-sizing: border-box
 }
