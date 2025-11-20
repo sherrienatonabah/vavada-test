@@ -97,8 +97,9 @@ table th {
 	margin-bottom: 15px
 }
 
-.text-block-content img,
+.text-block-content ,
 .text-block-second-content img {
+	width: 100%;
 	margin: 2rem auto
 }
 
